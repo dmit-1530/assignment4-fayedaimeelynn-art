@@ -1,3 +1,24 @@
+:root{
+    --blue:#0A91DE;
+    --header-color: #727B81;
+    --navigation-color: #666F74;
+    --grey: #DDDDDD;
+    --white: #FFFFFF;
+
+    /* font family */
+    --logo-font:"Nunito", sans-serif;
+    --navigation-font:  "Manrope", sans-serif;
+}
+
+
+
+
 body {
     background-color: #eee;
+}
+
+/* global typography */
+
+span{
+    color: ;
 }
