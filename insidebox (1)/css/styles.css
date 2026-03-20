@@ -3,7 +3,7 @@
     --header-color: #727B81;
     --navigation-color: #666F74;
     --grey: #DDDDDD;
-    --white: #FFFFFF;
+    --panel-bg: #FFFFFF;
 
     /* font family */
     --logo-font:"Nunito", sans-serif;
@@ -11,14 +11,53 @@
 }
 
 
-
-
 body {
     background-color: #eee;
 }
 
+header{
+background-color: var(--panel-bg);
+width: 14.5rem;
+border-color: var(--grey) solid .0625rem;
+padding: 1rem;
+}
+
+.inner-container{
+max-width: 77.5rem;
+margin: auto 0;
+padding: 0;
+
+}
+
 /* global typography */
 
-span{
-    color: ;
+h1 {
+    font-family: var(--logo-font);
+    font-size: 1.25rem;
+    font-weight: 700;
 }
+
+span{
+    color: var(--blue);
+}
+
+h1, p {
+color: var(--header-color);
+}
+
+p, ul, li {
+    font-family: var(--navigation-font);
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+ul, li {
+    color: var(--navigation-color);
+    font-size: 1.125rem;
+}
+
+/* main content */
+
