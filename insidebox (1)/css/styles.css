@@ -1,32 +1,29 @@
-
 /* root menu */
-:root{
-    --blue:#0A91DE;
+:root {
+    --blue: #0A91DE;
     --header-color: #727B81;
     --navigation-color: #666F74;
     --grey: #DDDDDD;
     --panel-bg: #FFFFFF;
 
     /* font family */
-    --logo-font:"Nunito", sans-serif;
-    --navigation-font:  "Manrope", sans-serif;
+    --logo-font: "Nunito", sans-serif;
+    --navigation-font: "Manrope", sans-serif;
 }
 
 body {
     background-color: #EEEEEE;
     font-family: var(--navigation-font);
     color: var(--navigation-color);
-    margin: 0;
-    padding: 0;
 }
 
- header{
-background-color: var(--panel-bg);
-width: 14.5rem;
-height: 100%;
-border: .0625rem solid var(--grey);
-padding: 1.25rem 1rem 1rem;
-position: fixed;
+header {
+    background-color: var(--panel-bg);
+    width: 14.5rem;
+    height: 100%;
+    border: .0625rem solid var(--grey);
+    padding: 1.25rem 1rem 1rem;
+    position: fixed;
 }
 
 
@@ -57,10 +54,9 @@ p {
 
 /* main content */
 .inner-container {
-   max-width: 77.5rem;
-   margin: 0 auto;
-    background-color: #EEEEEE;
-    min-height: 100%;
+    max-width: 77.5rem;
+    margin: 0 auto;
+    background: #EEEEEE;
 }
 
 .main-menu {
@@ -75,7 +71,7 @@ svg {
     stroke: var(--navigation-color);
 }
 
-.main-menu > li {
+.main-menu>li {
     display: flex;
     align-items: center;
     gap: .5rem;
@@ -112,7 +108,7 @@ a {
 }
 
 .sub-menu li:first-of-type {
-padding-top: 0;
+    padding-top: 0;
 }
 
 .sub-menu li:last-of-type {
