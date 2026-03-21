@@ -1,3 +1,5 @@
+
+/* root menu */
 :root{
     --blue:#0A91DE;
     --header-color: #727B81;
@@ -10,11 +12,12 @@
     --navigation-font:  "Manrope", sans-serif;
 }
 
-
 body {
-    background-color: #eee;
+    background-color: #EEEEEE;
     font-family: var(--navigation-font);
     color: var(--navigation-color);
+    margin: 0;
+    padding: 0;
 }
 
  header{
@@ -53,6 +56,13 @@ p {
 }
 
 /* main content */
+.inner-container {
+   max-width: 77.5rem;
+   margin: 0 auto;
+    background-color: #EEEEEE;
+    min-height: 100%;
+}
+
 .main-menu {
     list-style: none;
     padding: 0;
@@ -113,4 +123,9 @@ padding-top: 0;
 .main-menu li:hover .sub-menu {
     visibility: visible;
     opacity: 1;
+}
+
+.sub-menu li:hover {
+    color: var(--blue);
+    cursor: pointer;
 }
