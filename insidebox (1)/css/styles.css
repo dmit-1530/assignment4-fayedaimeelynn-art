@@ -52,6 +52,7 @@ p {
     padding: .5rem;
 }
 
+/* main content */
 .main-menu {
     list-style: none;
     padding: 0;
@@ -73,30 +74,25 @@ svg {
     position: relative;
 }
 
-
-
-
-
-
-
-
-/* h1, p {
-color: var(--header-color);
-} */
-
-/* p, ul, li {
-    font-family: var(--navigation-font);
-} */
-
-/* p {
-    font-size: 1.5rem;
-    font-weight: 700;
-} */
-
-/* ul, li {
+a {
+    text-decoration: none;
     color: var(--navigation-color);
-    font-size: 1.125rem;
-} */
+    font-weight: 500;
+}
 
-/* main content */
-
+.sub-menu {
+    list-style: none;
+    padding: 0;
+    background-color: var(--panel-bg);
+    border: .0625rem solid var(--blue);
+    border-radius: .4375rem;
+    position: absolute;
+    left: 70%;
+    top: 0;
+    min-width: 10.875rem;
+    text-align: center;
+    padding: 1.125rem;
+    z-index: 1;
+    gap: .5rem;
+    
+}
