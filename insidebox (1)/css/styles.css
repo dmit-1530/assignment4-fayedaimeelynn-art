@@ -13,51 +13,90 @@
 
 body {
     background-color: #eee;
+    font-family: var(--navigation-font);
+    color: var(--navigation-color);
 }
 
-header{
+ header{
 background-color: var(--panel-bg);
 width: 14.5rem;
-border-color: var(--grey) solid .0625rem;
-padding: 1rem;
+height: 100%;
+border: .0625rem solid var(--grey);
+padding: 1.25rem 1rem 1rem;
+position: fixed;
 }
 
-.inner-container{
-max-width: 77.5rem;
-margin: auto 0;
-padding: 0;
-
-}
 
 /* global typography */
 
 h1 {
     font-family: var(--logo-font);
+    color: var(--header-color);
     font-size: 1.25rem;
     font-weight: 700;
+    line-height: 1.5
 }
 
-span{
+span {
     color: var(--blue);
 }
 
-h1, p {
-color: var(--header-color);
-}
-
-p, ul, li {
-    font-family: var(--navigation-font);
-}
-
 p {
+    font-family: var(--navigation-font);
     font-size: 1.5rem;
     font-weight: 700;
+    line-height: 1.5;
+    color: var(--header-color);
+    border-bottom: .0625rem solid var(--grey);
+    margin-bottom: 1.5rem;
+    padding: .5rem;
 }
 
-ul, li {
+.main-menu {
+    list-style: none;
+    padding: 0;
+}
+
+svg {
+    width: 1.6875rem;
+    height: 1.6875rem;
+    fill: none;
+    stroke: var(--navigation-color);
+}
+
+.main-menu > li {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+/* h1, p {
+color: var(--header-color);
+} */
+
+/* p, ul, li {
+    font-family: var(--navigation-font);
+} */
+
+/* p {
+    font-size: 1.5rem;
+    font-weight: 700;
+} */
+
+/* ul, li {
     color: var(--navigation-color);
     font-size: 1.125rem;
-}
+} */
 
 /* main content */
 
